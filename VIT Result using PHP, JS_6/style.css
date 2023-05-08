@@ -1,0 +1,93 @@
+.mark-sheet {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+
+  }
+  
+  .detail {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+  }
+  
+  .detail span:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: blue;
+  }
+
+  table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid blue;
+  }
+  
+  table th {
+    background-color: #2a52be;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  th:first-child, td:first-child {
+    border-left: none;
+  }
+  
+  th:last-child, td:last-child {
+    border-right: none;
+  }
+  .subjects{
+    background-color: white;
+    color: #2a52be;
+  }
+  .grades{
+    display:flex;
+    justify-content:space-around;
+    padding:0px200px0px10px;
+  }
+
+  .coe{
+    justify-content:end;
+    display:flex;
+  }
+
+  .coe_sign{
+    height: 15%;
+    width: 15%;
+  }
+  
+  
+  
+
+
+  

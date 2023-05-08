@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Projects in VIT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1> My VIT Projects</h1>
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#sdp">SDP</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#edi">EDI</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#dt">DT</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#course"
+            >Course Projects</a
+          >
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane container active" id="sdp">
+          <h2>SDP</h2>
+
+          <p>
+            SDP stands for Software Development Project. It is a core subject in
+            the curriculum of computer science and engineering at VIT. The
+            purpose of this subject is to help students develop practical skills
+            in software development, project management, and team collaboration.
+            Students work in teams to design, develop, and test a software
+            system that meets the requirements of a real-world client. The
+            project is typically completed over two semesters and culminates in
+            a final presentation to the client and a panel of faculty members.
+          </p>
+
+          <ul>
+            <li>MCQ Exam System</li>
+
+            <li>Dhun A music Player</li>
+          </ul>
+        </div>
+        <div class="tab-pane container fade" id="edi">
+          <h2>EDI</h2>
+
+          <p>
+            EDI stands for Entrepreneurship Development and Innovation. It is an
+            elective subject in the curriculum of computer science and
+            engineering at VIT. The purpose of this subject is to introduce
+            students to the concepts and skills needed to start and run a
+            successful business. The course covers topics such as idea
+            generation, market research, business planning, funding, and team
+            building. Students work in teams to develop a business plan for a
+            new product or service, and present their plan to a panel of faculty
+            members and industry experts.
+          </p>
+
+          <ul>
+            <li>Virtual Assistant in Python</li>
+            <li>Smart Waste Management System</li>
+            <li>
+              Lane, Car, Traffic Sign and Collision Detection in Simulated
+              Environment Using GTA-V
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-pane container fade" id="dt">
+          <h2>DT</h2>
+
+          <p>
+            DT stands for Design Thinking. It is an elective subject in the
+            curriculum of computer science and engineering at VIT. The purpose
+            of this subject is to help students develop creative and innovative
+            solutions to complex problems. The course covers topics such as user
+            research, ideation, prototyping, and testing. Students work in teams
+            to apply the design thinking process to a real-world problem, and
+            present their solution to a panel of faculty members and industry
+            experts.
+          </p>
+
+          <ul>
+            <li>INCOFT</li>
+
+            <li>ISISS</li>
+          </ul>
+        </div>
+
+        <div class="tab-pane container fade" id="course">
+          <h2>Course Projects</h2>
+
+          <p>
+            Course Projects are a crucial part of the curriculum of computer
+            science and engineering at VIT. They give students an opportunity to
+            apply the concepts and skills they have learned in their courses to
+            real-world problems. Students work in teams to design and develop a
+            software system, or to conduct a research project under the guidance
+            of a faculty member. The project culminates in a final presentation
+            to a panel of faculty members and industry experts.
+          </p>
+
+          <ul>
+            <li>IoT based Sewage monitoring</li>
+
+            <li>A muliprogramming Operating System</li>
+            
+            <li>Breast Cancer classification</li>
+
+            <li>Virtual Keyboard</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(".nav-tabs a").click(function () {
+          $(this).tab("show");
+        });
+      });
+    </script>
+  </body>
+</html>

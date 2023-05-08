@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Electricity Bill Calculator</title>
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+<body>
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-6 offset-md-3">
+            <h1 class="text-center mb-4">Electricity Bill Calculator</h1>
+            <form id="billForm" th:action="/" method="post">
+                <div class="form-group">
+                    <label for="units">Enter number of units:</label>
+                    <input
+                            type="number"
+                            class="form-control"
+                            id="units"
+                            name="units"
+                            required
+                    />
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Calculate Bill
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+      $(document).ready(function () {
+        $("#billForm").submit(function (event) {
+          event.preventDefault();
+          var units = parseInt($("#units").val());
+          if (units <= 0 || isNaN(units)) {
+            alert("Please enter a valid number of units consumed.");
+            return;
+          }
+          this.submit();
+        });
+      });
+    </script>
+</body>
+</html>

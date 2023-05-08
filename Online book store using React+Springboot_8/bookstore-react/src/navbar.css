@@ -1,0 +1,21 @@
+.navbar-brand {
+    color: #ffffff;
+    font-size: 28px; /* Change the brand text font size */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #555; /* Change the link text color */
+    font-size: 18px; /* Change the link text font size */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0066cc; /* Change the link text color on hover */
+  }
+
+  .navbar-custom {
+    color: white;
+  }
+  
+  .navbar-custom .nav-link {
+    color: white;
+  }
