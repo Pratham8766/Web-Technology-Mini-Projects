@@ -1,2 +1,2 @@
-# WT-Assignments
+# Web Technology Mini Projects
  
